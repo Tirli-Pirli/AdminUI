@@ -1,0 +1,92 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+.nav {
+    background-color: #3f51b5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav__left {
+        display: flex;
+        padding-left: 50px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        align-items: center;
+        .nav__logo {
+            width: 20px;
+            padding: 5px;
+        }
+        .nav__name {
+            color: white;
+            padding-left: 10px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+        // .nav__burger {
+        //     width: 20px;
+        //     padding-left: 55px;
+        // }
+        // .nav__input {
+        //     height: 30px;
+        //     width: 200px;
+        //     border: 1px solid #6b76c4;
+        //     background-color: #5765bd;
+        //     padding-left: 10px;
+        //     margin-left: 20px;
+        //     color: white;
+        //     background: url(search.svg) no-repeat 180px 7px;
+        //     background-size: 20px 20px;
+        // }
+        // ::placeholder {
+        //     color: white;
+        // }
+        
+    }
+    .nav__right {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        .nav__right__menu {
+            display: flex;
+            align-items: center;
+        }
+        .nav__right__list {
+            display: flex;
+            align-items: center;
+        }
+        .nav__burger {
+            width: 20px;
+            padding-left: 55px;
+        }
+        .nav__input {
+            height: 30px;
+            width: 200px;
+            border: 1px solid #6b76c4;
+            background-color: #5765bd;
+            padding-left: 10px;
+            margin-left: 20px;
+            color: white;
+            background: url(search.svg) no-repeat 180px 7px;
+            background-size: 20px 20px;
+        }
+        ::placeholder {
+            color: white;
+        }
+        .nav__square {
+            width: 20px;
+            height:20px;
+            padding: 5px;
+            padding-right: 40px;
+        }
+        .nav__user {
+            width: 20px;
+            height: 20px;
+            padding-right: 40px;
+        }
+
+    }
+    
+}
+    
